@@ -1,0 +1,103 @@
+[
+    {
+        "order_id": 1,
+        "items": [
+            {
+                "name": "Sandwich",
+                "size": "full",
+                "qty": 3,
+                "amount": 210
+            },
+            {
+                "name": "Paneer Paratha",
+                "size": "full",
+                "qty": 4,
+                "amount": 360
+            }
+        ],
+        "total": 570,
+        "status": "pending"
+    },
+    {
+        "order_id": 2,
+        "items": [
+            {
+                "name": "Dosa",
+                "size": "half",
+                "qty": 3,
+                "amount": 150
+            }
+        ],
+        "total": 150,
+        "status": "pending"
+    },
+    {
+        "order_id": 3,
+        "items": [
+            {
+                "name": "Aloo Paratha",
+                "size": "full",
+                "qty": 2,
+                "amount": 140
+            },
+            {
+                "name": "Masala Dosa",
+                "size": "full",
+                "qty": 5,
+                "amount": 550
+            },
+            {
+                "name": "Chole Bhature",
+                "size": "half",
+                "qty": 5,
+                "amount": 500
+            }
+        ],
+        "total": 1190,
+        "status": "pending"
+    },
+    {
+        "order_id": 4,
+        "items": [
+            {
+                "name": "Idli",
+                "size": "full",
+                "qty": 5,
+                "amount": 250
+            },
+            {
+                "name": "Dosa",
+                "size": "half",
+                "qty": 3,
+                "amount": 150
+            },
+            {
+                "name": "Chole Bhature",
+                "size": "full",
+                "qty": 2,
+                "amount": 360
+            }
+        ],
+        "total": 760,
+        "status": "pending"
+    },
+    {
+        "order_id": 5,
+        "items": [
+            {
+                "name": "Masala Dosa",
+                "size": "full",
+                "qty": 4,
+                "amount": 440
+            },
+            {
+                "name": "Mix Veg",
+                "size": "full",
+                "qty": 8,
+                "amount": 1280
+            }
+        ],
+        "total": 1720,
+        "status": "pending"
+    }
+]

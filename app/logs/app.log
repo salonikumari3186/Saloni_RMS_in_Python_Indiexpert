@@ -1,0 +1,212 @@
+2026-03-23 21:48:32,076 - INFO - Login process started
+2026-03-23 21:49:37,987 - INFO - Data read successfully form app/database/users.json
+2026-03-23 21:49:37,987 - WARNING - No users found in database
+2026-03-23 21:50:14,060 - INFO - Login process started
+2026-03-23 21:50:44,715 - INFO - Data read successfully form app/database/users.json
+2026-03-23 21:50:44,716 - WARNING - No users found in database
+2026-03-23 21:56:05,827 - INFO - Signup process started
+2026-03-23 21:56:42,629 - WARNING - Invalid email entered: juli.com
+2026-03-23 21:57:21,684 - INFO -  Empty file: app/database/users.json
+2026-03-23 21:57:21,686 - INFO - Data sucessfully saved in app/database/users.json
+2026-03-23 21:57:21,687 - INFO - New user registered: juli (juli@gmail.com)
+2026-03-23 21:57:55,075 - INFO - Login process started
+2026-03-23 21:58:35,610 - INFO - Data read successfully form app/database/users.json
+2026-03-23 21:58:35,610 - WARNING - Users file is empty or no users registred
+2026-03-23 21:58:54,331 - INFO - Login process started
+2026-03-23 21:59:36,572 - INFO - Data read successfully form app/database/users.json
+2026-03-23 21:59:36,573 - WARNING - Users file is empty or no users registred
+2026-03-24 07:47:29,976 - INFO - Signup process started
+2026-03-24 07:48:27,811 - INFO - Data read successfully form app/database/users.json
+2026-03-24 07:48:27,815 - INFO - Data sucessfully saved in app/database/users.json
+2026-03-24 07:48:27,817 - INFO - New user registered: neha (neha@gmail.com)
+2026-03-24 07:48:47,935 - INFO - Login process started
+2026-03-24 07:49:06,089 - INFO - Data read successfully form app/database/users.json
+2026-03-24 07:49:06,090 - WARNING - Users file is empty or no users registred
+2026-03-24 07:59:00,522 - INFO - Signup process started
+2026-03-24 07:59:38,490 - INFO - Data read successfully form app/database/users.json
+2026-03-24 07:59:38,492 - INFO - Data sucessfully saved in app/database/users.json
+2026-03-24 07:59:38,492 - INFO - New user registered: saloni (saloni@gmail.com)
+2026-03-24 07:59:41,652 - INFO - Login process started
+2026-03-24 08:00:07,231 - INFO - Data read successfully form app/database/users.json
+2026-03-24 08:00:07,233 - INFO - Staff Dashboard opened
+2026-03-24 08:00:29,111 - INFO - Staff selected Take Order
+2026-03-24 08:00:29,113 - INFO - Pcaked order Dashboard opened
+2026-03-24 08:01:06,472 - INFO - Order Menu Dashboard opened
+2026-03-24 08:01:14,216 - INFO - Loadinf menu data
+2026-03-24 08:01:14,241 - INFO - Data read successfully form app/database/menu.json
+2026-03-24 08:01:14,297 - INFO - Menu displayed successfull
+2026-03-24 08:01:14,298 - INFO - Fodd menu display
+2026-03-24 08:02:02,767 - INFO - Order Process started
+2026-03-24 08:02:02,768 - INFO - Data read successfully form app/database/menu.json
+2026-03-24 08:02:02,769 - INFO - Menu loaded from file
+2026-03-24 08:02:44,674 - INFO - Item added: Paneer Noddles | Qty: 3
+2026-03-24 08:03:40,715 - INFO - Item added: Tea | Qty: 4
+2026-03-24 08:04:13,599 - INFO - Item added: Ice Cream | Qty: 2
+2026-03-24 08:04:19,480 - INFO - Data read successfully form app/database/orders.json
+2026-03-24 08:04:19,484 - INFO - Data sucessfully saved in app/database/orders.json
+2026-03-24 08:04:19,485 - INFO - Take order function called
+2026-03-24 08:04:49,667 - INFO - Viewing all orders
+2026-03-24 08:04:49,689 - INFO - Data read successfully form app/database/orders.json
+2026-03-24 08:04:49,691 - ERROR - Login error: 'order_id'
+2026-03-24 08:22:53,349 - INFO - Login process started
+2026-03-24 08:23:13,268 - INFO - Data read successfully form app/database/users.json
+2026-03-24 08:23:13,271 - INFO - Staff Dashboard opened
+2026-03-24 08:23:25,232 - INFO - Staff selected Packed Order
+2026-03-24 08:23:25,234 - INFO - Pcaked order Dashboard opened
+2026-03-24 08:23:35,753 - INFO - Order Menu Dashboard opened
+2026-03-24 08:23:40,479 - INFO - Loadinf menu data
+2026-03-24 08:23:40,480 - INFO - Data read successfully form app/database/menu.json
+2026-03-24 08:23:40,518 - INFO - Menu displayed successfull
+2026-03-24 08:23:40,518 - INFO - Fodd menu display
+2026-03-24 08:25:09,259 - INFO - Order Process started
+2026-03-24 08:25:09,260 - INFO - Data read successfully form app/database/menu.json
+2026-03-24 08:25:09,260 - INFO - Menu loaded from file
+2026-03-24 08:25:45,441 - INFO - Item added: Poha | Qty: 4
+2026-03-24 08:26:12,045 - INFO - Item added: Gulab Jamun | Qty: 2
+2026-03-24 08:26:44,773 - INFO - Item added: Veg Burgur | Qty: 1
+2026-03-24 08:26:47,584 - INFO - Data read successfully form app/database/orders.json
+2026-03-24 08:26:47,586 - INFO - Data sucessfully saved in app/database/orders.json
+2026-03-24 08:26:47,587 - INFO - Take order function called
+2026-03-24 08:27:10,154 - INFO - Viewing all orders
+2026-03-24 08:27:10,188 - INFO - Data read successfully form app/database/orders.json
+2026-03-24 08:27:10,188 - WARNING - Order without order_id found
+2026-03-24 08:27:10,189 - WARNING - Order without order_id found
+2026-03-24 08:27:10,190 - WARNING - Order without order_id found
+2026-03-24 08:27:10,190 - WARNING - Order without order_id found
+2026-03-24 08:27:10,191 - WARNING - Order without order_id found
+2026-03-24 08:27:10,192 - WARNING - Order without order_id found
+2026-03-24 08:27:10,193 - INFO - Viewing Order ID: 7
+2026-03-24 08:27:10,195 - INFO - Viewing Order ID: 8
+2026-03-24 08:27:10,197 - INFO - Viewing Order ID: 9
+2026-03-24 08:27:10,198 - INFO - Viewing Order ID: 10
+2026-03-24 08:27:10,200 - INFO - Viewing Order ID: 11
+2026-03-24 08:27:10,202 - INFO - Viewing Order ID: 12
+2026-03-24 08:27:10,204 - INFO - Viewing Order ID: 13
+2026-03-24 08:41:30,310 - INFO - Login process started
+2026-03-24 08:41:47,725 - INFO - Data read successfully form app/database/users.json
+2026-03-24 08:41:47,727 - INFO - Staff Dashboard opened
+2026-03-24 08:41:53,542 - INFO - Staff selected Take Order
+2026-03-24 08:41:53,544 - INFO - Pcaked order Dashboard opened
+2026-03-24 08:42:05,490 - INFO - Order Menu Dashboard opened
+2026-03-24 08:42:17,471 - INFO - Loadinf menu data
+2026-03-24 08:42:17,472 - INFO - Data read successfully form app/database/menu.json
+2026-03-24 08:42:17,509 - INFO - Menu displayed successfull
+2026-03-24 08:42:17,509 - INFO - Fodd menu display
+2026-03-24 08:42:31,321 - INFO - Loadinf menu data
+2026-03-24 08:42:31,322 - INFO - Data read successfully form app/database/menu.json
+2026-03-24 08:42:31,361 - INFO - Menu displayed successfull
+2026-03-24 08:42:31,362 - INFO - Fodd menu display
+2026-03-24 08:56:34,359 - INFO - Login process started
+2026-03-24 08:56:53,187 - INFO - Data read successfully form app/database/users.json
+2026-03-24 08:56:53,190 - INFO - Staff Dashboard opened
+2026-03-24 08:56:57,322 - INFO - Staff selected Take Order
+2026-03-24 08:56:57,325 - INFO - Pcaked order Dashboard opened
+2026-03-24 08:57:09,765 - INFO - Order Menu Dashboard opened
+2026-03-24 08:57:19,220 - INFO - Loadinf menu data
+2026-03-24 08:57:19,222 - INFO - Data read successfully form app/database/menu.json
+2026-03-24 08:57:19,262 - INFO - Menu displayed successfull
+2026-03-24 08:57:19,262 - INFO - Food menu displayed
+2026-03-24 08:57:24,033 - INFO - Order Process started
+2026-03-24 08:57:24,034 - INFO - Data read successfully form app/database/menu.json
+2026-03-24 08:57:24,035 - INFO - Menu loaded from file
+2026-03-24 08:57:33,378 - INFO - Item added: Sandwich | Qty: 3
+2026-03-24 08:57:46,827 - INFO - Item added: Paneer Paratha | Qty: 4
+2026-03-24 08:57:49,969 - INFO -  Empty file: app/database/orders.json
+2026-03-24 08:57:49,971 - INFO - Data sucessfully saved in app/database/orders.json
+2026-03-24 08:57:49,972 - INFO - Take order function called
+2026-03-24 08:57:53,854 - INFO - Order Process started
+2026-03-24 08:57:53,855 - INFO - Data read successfully form app/database/menu.json
+2026-03-24 08:57:53,856 - INFO - Menu loaded from file
+2026-03-24 08:58:11,480 - INFO - Item added: Dosa | Qty: 3
+2026-03-24 08:58:13,892 - INFO - Data read successfully form app/database/orders.json
+2026-03-24 08:58:13,893 - INFO - Data sucessfully saved in app/database/orders.json
+2026-03-24 08:58:13,894 - INFO - Take order function called
+2026-03-24 08:58:16,583 - INFO - Viewing all orders
+2026-03-24 08:58:16,584 - INFO - Data read successfully form app/database/orders.json
+2026-03-24 08:58:16,587 - INFO - Viewing Order ID: 1
+2026-03-24 08:58:16,589 - INFO - Viewing Order ID: 2
+2026-03-24 11:48:56,412 - INFO - Login process started
+2026-03-24 11:49:29,594 - INFO - Login process started
+2026-03-24 11:49:49,288 - INFO - Data read successfully form app/database/users.json
+2026-03-24 11:49:49,292 - INFO - Staff Dashboard opened
+2026-03-24 11:49:55,325 - INFO - Staff selected Packed Order
+2026-03-24 11:49:55,327 - INFO - Pcaked order Dashboard opened
+2026-03-24 11:49:58,060 - INFO - Order Menu Dashboard opened
+2026-03-24 11:50:00,371 - INFO - Loadinf menu data
+2026-03-24 11:50:00,392 - INFO - Data read successfully form app/database/menu.json
+2026-03-24 11:50:00,427 - INFO - Menu displayed successfull
+2026-03-24 11:50:00,427 - INFO - Food menu displayed
+2026-03-24 11:50:04,343 - INFO - Order Process started
+2026-03-24 11:50:04,344 - INFO - Data read successfully form app/database/menu.json
+2026-03-24 11:50:04,345 - INFO - Menu loaded from file
+2026-03-24 11:50:12,787 - INFO - Item added: Aloo Paratha | Qty: 2
+2026-03-24 11:50:31,416 - INFO - Item added: Masala Dosa | Qty: 5
+2026-03-24 11:50:51,118 - INFO - Item added: Chole Bhature | Qty: 5
+2026-03-24 11:50:53,956 - INFO - Data read successfully form app/database/orders.json
+2026-03-24 11:50:53,958 - INFO - Data sucessfully saved in app/database/orders.json
+2026-03-24 11:50:53,959 - INFO - Take order function called
+2026-03-24 11:51:05,884 - INFO - Viewing all orders
+2026-03-24 11:51:05,908 - INFO - Data read successfully form app/database/orders.json
+2026-03-24 11:51:05,910 - INFO - Viewing Order ID: 1
+2026-03-24 11:51:05,912 - INFO - Viewing Order ID: 2
+2026-03-24 11:51:05,914 - INFO - Viewing Order ID: 3
+2026-03-24 12:09:24,334 - INFO - Login process started
+2026-03-24 12:09:39,775 - INFO - Data read successfully form app/database/users.json
+2026-03-24 12:09:39,778 - INFO - Staff Dashboard opened
+2026-03-24 12:09:44,554 - INFO - Staff selected Packed Order
+2026-03-24 12:09:44,556 - INFO - Pcaked order Dashboard opened
+2026-03-24 12:09:46,472 - INFO - Order Menu Dashboard opened
+2026-03-24 12:09:50,819 - INFO - Loadinf menu data
+2026-03-24 12:09:50,849 - INFO - Data read successfully form app/database/menu.json
+2026-03-24 12:09:50,884 - INFO - Menu displayed successfull
+2026-03-24 12:09:50,885 - INFO - Food menu displayed
+2026-03-24 12:09:56,549 - INFO - Order Process started
+2026-03-24 12:09:56,550 - INFO - Data read successfully form app/database/menu.json
+2026-03-24 12:09:56,551 - INFO - Menu loaded from file
+2026-03-24 12:10:24,913 - INFO - Item added: Idli | Qty: 5
+2026-03-24 12:10:44,034 - INFO - Item added: Dosa | Qty: 3
+2026-03-24 12:11:06,302 - INFO - Item added: Chole Bhature | Qty: 2
+2026-03-24 12:11:09,360 - INFO - Data read successfully form app/database/orders.json
+2026-03-24 12:11:09,361 - INFO - Data sucessfully saved in app/database/orders.json
+2026-03-24 12:11:09,362 - INFO - Take order function called
+2026-03-24 12:12:15,827 - INFO - Viewing all orders
+2026-03-24 12:12:15,911 - INFO - Data read successfully form app/database/orders.json
+2026-03-24 12:12:15,912 - INFO - Viewing Order ID: 1
+2026-03-24 12:12:15,914 - INFO - Viewing Order ID: 2
+2026-03-24 12:12:15,916 - INFO - Viewing Order ID: 3
+2026-03-24 12:12:15,926 - INFO - Viewing Order ID: 4
+2026-03-24 12:15:40,574 - INFO - Login process started
+2026-03-24 12:16:06,112 - INFO - Data read successfully form app/database/users.json
+2026-03-24 12:16:06,114 - INFO - Staff Dashboard opened
+2026-03-24 12:16:09,374 - INFO - Staff selected Packed Order
+2026-03-24 12:16:09,376 - INFO - Pcaked order Dashboard opened
+2026-03-24 12:16:14,640 - INFO - Order Menu Dashboard opened
+2026-03-24 12:16:19,080 - INFO - Loadinf menu data
+2026-03-24 12:16:19,082 - INFO - Data read successfully form app/database/menu.json
+2026-03-24 12:16:19,119 - INFO - Menu displayed successfull
+2026-03-24 12:16:19,120 - INFO - Food menu displayed
+2026-03-24 12:16:26,483 - INFO - Order Process started
+2026-03-24 12:16:26,485 - INFO - Data read successfully form app/database/menu.json
+2026-03-24 12:16:26,485 - INFO - Menu loaded from file
+2026-03-24 12:17:04,502 - INFO - Item added: Masala Dosa | Qty: 4
+2026-03-24 12:17:26,643 - INFO - Item added: Mix Veg | Qty: 8
+2026-03-24 12:17:29,364 - INFO - Data read successfully form app/database/orders.json
+2026-03-24 12:17:29,365 - INFO - Data sucessfully saved in app/database/orders.json
+2026-03-24 12:17:29,367 - INFO - Take order function called
+2026-03-24 12:18:11,932 - INFO - Viewing all orders
+2026-03-24 12:18:11,964 - INFO - Data read successfully form app/database/orders.json
+2026-03-24 12:18:11,965 - INFO - Viewing Order ID: 1
+2026-03-24 12:18:11,967 - INFO - Viewing Order ID: 2
+2026-03-24 12:18:11,969 - INFO - Viewing Order ID: 3
+2026-03-24 12:18:11,971 - INFO - Viewing Order ID: 4
+2026-03-24 12:18:11,973 - INFO - Viewing Order ID: 5
+2026-03-24 12:31:29,921 - INFO - Signup process started
+2026-03-24 12:31:54,413 - INFO - Data read successfully form app/database/users.json
+2026-03-24 12:31:54,414 - WARNING - Duplicate username attempt: saloni
+2026-03-24 12:32:18,137 - INFO - Signup process started
+2026-03-24 12:32:42,366 - INFO - Data read successfully form app/database/users.json
+2026-03-24 12:32:42,369 - INFO - Data sucessfully saved in app/database/users.json
+2026-03-24 12:32:42,370 - INFO - New user registered: nilu (nilu@gmail.com)
+2026-03-24 12:32:45,968 - INFO - Login process started
+2026-03-24 12:33:02,552 - INFO - Data read successfully form app/database/users.json
+2026-03-24 12:33:02,555 - INFO - Staff Dashboard opened

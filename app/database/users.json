@@ -1,0 +1,29 @@
+[
+    {
+        "id": "f492e245-cf7f-4596-a02d-c4dd63f0ac91",
+        "username": "neha",
+        "email": "neha@gmail.com",
+        "password": "neha@123",
+        "address": "bihar",
+        "role": "staff",
+        "status": "active"
+    },
+    {
+        "id": "19fea770-d320-4d89-97ba-b3c81f3bf95e",
+        "username": "saloni",
+        "email": "saloni@gmail.com",
+        "password": "saloni@123",
+        "address": "bihar",
+        "role": "staff",
+        "status": "active"
+    },
+    {
+        "id": "5547e65e-d107-4681-b7ed-fa96fbe209e0",
+        "username": "nilu",
+        "email": "nilu@gmail.com",
+        "password": "nilu@123",
+        "address": "bihar",
+        "role": "staff",
+        "status": "active"
+    }
+]

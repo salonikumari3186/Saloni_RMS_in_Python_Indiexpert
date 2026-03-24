@@ -1,0 +1,79 @@
+
+[
+  {"id": 1, "name": "Poha", "category": "Starters", "type": "Veg", "half_price": 30, "full_price": 50},
+  {"id": 2, "name": "Upma", "category": "Starters", "type": "Veg", "half_price": 35, "full_price": 60},
+  {"id": 3, "name": "Sandwich", "category": "Starters", "type": "Veg", "half_price": 40, "full_price": 70},
+  {"id": 4, "name": "Aloo Paratha", "category": "Starters", "type": "Veg", "half_price": 40, "full_price": 70},
+  {"id": 5, "name": "Paneer Paratha", "category": "Starters", "type": "Veg", "half_price": 50, "full_price": 90},
+  {"id": 6, "name": "Idli", "category": "Starters", "type": "Veg", "half_price": 30, "full_price": 50},
+  {"id": 7, "name": "Dosa", "category": "Starters", "type": "Veg", "half_price": 50, "full_price": 90},
+  {"id": 8, "name": "Masala Dosa", "category": "Starters", "type": "Veg", "half_price": 60, "full_price": 110},
+  {"id": 9, "name": "Omelette", "category": "Starters", "type": "Non-Veg", "half_price": 50, "full_price": 80},
+
+  {"id": 10, "name": "Veg Thali", "category": "Main Course", "type": "Veg", "half_price": 120, "full_price": 200},
+  {"id": 11, "name": "Dal Fry", "category": "Main Course", "type": "Veg", "half_price": 80, "full_price": 140},
+  {"id": 12, "name": "Paneer Butter Masala", "category": "Main Course", "type": "Veg", "half_price": 130, "full_price": 220},
+  {"id": 13, "name": "Rajma Chawal", "category": "Main Course", "type": "Veg", "half_price": 90, "full_price": 160},
+  {"id": 14, "name": "Chole Bhature", "category": "Main Course", "type": "Veg", "half_price": 100, "full_price": 180},
+  {"id": 15, "name": "Mix Veg", "category": "Main Course", "type": "Veg", "half_price": 90, "full_price": 160},
+  {"id": 16, "name": "Palak Paneer", "category": "Main Course", "type": "Veg", "half_price": 120, "full_price": 210},
+  {"id": 17, "name": "Bhindi Masala", "category": "Main Course", "type": "Veg", "half_price": 80, "full_price": 140},
+  {"id": 18, "name": "Chicken Curry", "category": "Main Course", "type": "Non-Veg", "half_price": 150, "full_price": 250},
+  {"id": 19, "name": "Egg Curry", "category": "Main Course", "type": "Non-Veg", "half_price": 120, "full_price": 200},
+
+  {"id": 20, "name": "Veg Biryani", "category": "Rice & Biryani", "type": "Veg", "half_price": 100, "full_price": 180},
+  {"id": 21, "name": "Jeera Rice", "category": "Rice & Biryani", "type": "Veg", "half_price": 70, "full_price": 120},
+  {"id": 22, "name": "Fried Rice", "category": "Rice & Biryani", "type": "Veg", "half_price": 90, "full_price": 150},
+  {"id": 23, "name": "Chicken Biryani", "category": "Rice & Biryani", "type": "Non-Veg", "half_price": 140, "full_price": 240},
+  {"id": 24, "name": "Egg Fried Rice", "category": "Rice & Biryani", "type": "Non-Veg", "half_price": 110, "full_price": 180},
+
+  {"id": 25, "name": "Shahi Paneer", "category": "Main Course", "type": "Veg", "half_price": 120, "full_price": 210},
+  {"id": 26, "name": "Dal Makhani", "category": "Main Course", "type": "Veg", "half_price": 110, "full_price": 200},
+  {"id": 27, "name": "Kadai Paneer", "category": "Main Course", "type": "Veg", "half_price": 130, "full_price": 220},
+  {"id": 28, "name": "Malai Kofta", "category": "Main Course", "type": "Veg", "half_price": 140, "full_price": 230},
+  {"id": 29, "name": "Butter Chicken", "category": "Main Course", "type": "Non-Veg", "half_price": 160, "full_price": 290},
+  {"id": 30, "name": "Mutton Curry", "category": "Main Course", "type": "Non-Veg", "half_price": 180, "full_price": 320},
+  {"id": 31, "name": "Chicken Tikka", "category": "Main Course", "type": "Non-Veg", "half_price": 160, "full_price": 280},
+  {"id": 32, "name": "Fish Curry", "category": "Main Course", "type": "Non-Veg", "half_price": 170, "full_price": 300},
+
+  {"id": 33, "name": "Gulab Jamun", "category": "Sweets", "type": "Veg", "half_price": 40, "full_price": 80},
+  {"id": 34, "name": "Rasgulla", "category": "Sweets", "type": "Veg", "half_price": 35, "full_price": 70},
+  {"id": 35, "name": "Ice Cream", "category": "Sweets", "type": "Veg", "half_price": 50, "full_price": 90},
+  {"id": 36, "name": "Kaju Katli", "category": "Sweets", "type": "Veg", "half_price": 80, "full_price": 150},
+  {"id": 37, "name": "Rasmalai", "category": "Sweets", "type": "Veg", "half_price": 70, "full_price": 130},
+  {"id": 38, "name": "Jalebi", "category": "Sweets", "type": "Veg", "half_price": 40, "full_price": 80},
+  {"id": 39, "name": "Barfi", "category": "Sweets", "type": "Veg", "half_price": 60, "full_price": 120},
+  
+  {"id": 40, "name": "Tea", "category": "Drinks", "type": "Veg", "half_price": 10, "full_price": 20},
+  {"id": 41, "name": "Coffee", "category": "Drinks", "type": "Veg", "half_price": 20, "full_price": 40},
+  {"id": 42, "name": "Fresh Juice", "category": "Drinks", "type": "Veg", "half_price": 30, "full_price": 60},
+  {"id": 43, "name": "Cold Drink", "category": "Drinks", "type": "Veg", "half_price": 20, "full_price": 40},
+  {"id": 44, "name": "Lassi", "category": "Drinks", "type": "Veg", "half_price": 25, "full_price": 50},
+  {"id": 45, "name": "Milkshake", "category": "Drinks", "type": "Veg", "half_price": 40, "full_price": 80},
+  {"id": 46, "name": "Badam Milk", "category": "Drinks", "type": "Veg", "half_price": 50, "full_price": 90},
+  {"id": 47, "name": "Mango Shake", "category": "Drinks", "type": "Veg", "half_price": 60, "full_price": 100},
+  {"id": 48, "name": "Nimbu Tea", "category": "Drinks", "type": "Veg", "half_price": 50, "full_price": 85},
+  {"id": 49, "name": "Orange Juice", "category": "Drinks", "type": "Veg", "half_price": 60, "full_price": 120},
+  {"id": 50, "name": "Veg Burgur", "category": "Fast Food", "type": "Veg", "half_price": 60, "full_price": 100},
+  {"id": 51, "name": "Veg Pizza", "category": "Fast Food", "type": "Veg", "half_price": 120, "full_price": 200},
+  {"id": 52, "name": "French Fries", "category": "Fast Food", "type": "Veg", "half_price": 50, "full_price": 90},
+  {"id": 53, "name": "Chicken Burgur", "category": "Fast Food", "type": "Veg", "half_price": 90, "full_price": 150},
+  {"id": 54, "name": "Pasta", "category": "Fast Food", "type": "Veg", "half_price": 100, "full_price": 190},
+  {"id": 55, "name": "Chicken Pizza", "category": "Fast Food", "type": "Veg", "half_price": 150, "full_price": 260},
+  {"id": 56, "name": "Paneer Noddles", "category": "Fast Food", "type": "Veg", "half_price": 80, "full_price": 140},
+  {"id": 57, "name": "Egg Roll", "category": "Fast Food", "type": "Veg", "half_price": 50, "full_price": 90},
+  {"id": 58, "name": "Samosa Chart", "category": "Fast Food", "type": "Veg", "half_price": 25, "full_price": 35},
+  {"id": 59, "name": "Chicken Sandwich", "category": "Fast Food", "type": "Veg", "half_price": 80, "full_price": 140},
+  {"id": 60, "name": "Kachauri", "category": "Fast Food", "type": "Veg", "half_price": 60, "full_price": 80}
+  
+
+  
+
+
+
+
+
+
+
+  
+]
