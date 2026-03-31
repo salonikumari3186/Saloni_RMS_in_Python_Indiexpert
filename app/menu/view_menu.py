@@ -2,7 +2,6 @@ from app.utilities.file_handler import FileHandler
 from app.logs.logger import Logger
 
 
-
 class ViewMenu:
 
     def __init__(self):
@@ -12,14 +11,18 @@ class ViewMenu:
 
     def show_menu(self):
         try:
-            self.logger.info("Loadinf menu data")
+            self.logger.info("Loadinfo menu data")
             COLORS = {
                 "Starters":"\033[1;33m",
                 "Main Course":"\033[1;32m",
                 "Rice & Biryani":"\033[1;34m",
                 "Sweets":"\033[1;35m",
-                "Drinks":"\033[1;36m"
-            }
+               "Drinks":"\033[1;36m",
+                "Fastfood":"\033[1;32m"
+                
+           
+            }   
+           
             RESET = "\033[0m"
             
             menu = self.handler.read_data(self.file)

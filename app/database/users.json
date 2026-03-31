@@ -1,27 +1,54 @@
 [
     {
-        "id": "f492e245-cf7f-4596-a02d-c4dd63f0ac91",
-        "username": "neha",
-        "email": "neha@gmail.com",
-        "password": "neha@123",
-        "address": "bihar",
-        "role": "staff",
-        "status": "active"
-    },
-    {
-        "id": "19fea770-d320-4d89-97ba-b3c81f3bf95e",
+        "id": "7592070b-d4b8-44b6-8112-399029f6d0c1",
         "username": "saloni",
         "email": "saloni@gmail.com",
         "password": "saloni@123",
         "address": "bihar",
+        "role": "admin",
+        "status": "active"
+    },
+    {
+        "id": "f00bb0fe-d8a4-4cbc-846e-4e3a3b10ed49",
+        "username": "bina",
+        "email": "bina@gmail.com",
+        "password": "bina123",
+        "address": "bihar",
         "role": "staff",
         "status": "active"
     },
     {
-        "id": "5547e65e-d107-4681-b7ed-fa96fbe209e0",
-        "username": "nilu",
-        "email": "nilu@gmail.com",
-        "password": "nilu@123",
+        "id": "6c5a33e2-738b-4605-849d-ad872273a926",
+        "username": "nandu",
+        "email": "nandu@gmail.com",
+        "password": "nandu@123",
+        "address": "bihar",
+        "role": "admin",
+        "status": "active"
+    },
+    {
+        "id": "c6d907d3-d417-4342-a314-e2d73d25d4e0",
+        "username": "rini",
+        "email": "rini@gmail.com",
+        "password": "rini@123",
+        "address": "bihar",
+        "role": "staff",
+        "status": "active"
+    },
+    {
+        "id": "b4c44bdc-24e3-4f6f-84af-9c7af036cdd8",
+        "username": "rubi",
+        "email": "rubu@gmail.com",
+        "password": "rubi@123",
+        "address": "mirganj",
+        "role": "staff",
+        "status": "active"
+    },
+    {
+        "id": "08458d1b-68e1-470d-a478-588dbc66a2dc",
+        "username": "shalu",
+        "email": "shalu@gmail.com",
+        "password": "shalu123",
         "address": "bihar",
         "role": "staff",
         "status": "active"

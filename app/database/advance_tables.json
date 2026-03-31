@@ -1,0 +1,33 @@
+[
+    {
+        "name": "saloni",
+        "mobile": "4534657890",
+        "table": 3,
+        "persons": 2
+    },
+    {
+        "name": "juli",
+        "mobile": "3465789023",
+        "table": 9,
+        "persons": 4
+    },
+    {
+        "name": "moni",
+        "mobile": "4567678891",
+        "table": 5,
+        "persons": 2
+    },
+    {
+        "name": "saloni",
+        "mobile": "4598679023",
+        "table": 1,
+        "persons": 3
+    },
+    {
+        "name": "shajiya",
+        "phone": "9834568734",
+        "date": "2026-03-31",
+        "time": "12:20",
+        "table": 7
+    }
+]

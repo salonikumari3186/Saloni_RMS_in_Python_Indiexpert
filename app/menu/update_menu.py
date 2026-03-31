@@ -1,8 +1,8 @@
 from app.utilities.file_handler import FileHandler
 from app.logs.logger import Logger
 
-
 class UpdateMenu:
+
     def __init__(self):
         self.file = "app/database/menu.json"
         self.handler = FileHandler()
@@ -11,50 +11,76 @@ class UpdateMenu:
     def update_item(self):
 
         try:
-            self.logger.info("Update menu process started")
+            menu = self.handler.read_data(self.file) or []
 
-            menu = self.handler.read_data(self.file)
+            if not menu:
+                print("Menu is empty")
+                return
 
             item_id = input("Enter item ID to update: ")
 
             if not item_id.isdigit():
                 print("Invalid ID")
-                self.logger.warning(f"Invalid ID entered: {item_id}")
                 return
 
             item_id = int(item_id)
 
+            item_found = None
+
             for item in menu:
                 if item["id"] == item_id:
+                    item_found = item
+                    break
 
-                    print(f"Updating: {item['name']}")
-                    self.logger.info(f"Updating menu item: ID {item_id}")
+            if not item_found:
+                print("Item not found")
+                return
 
-                    new_name = input("New Name (Enter to skip): ")
-                    new_half = input("New half price: ")
-                    new_full = input("New full price: ")
+            print(f"\nUpdating Item: {item_found['name']}")
 
-                    if new_name:
-                        item["name"] = new_name
+        
+            name = input("Enter new name (leave blank to skip): ").strip()
 
-                    if new_half.isdigit():
-                        item["half_price"] = int(new_half)
-
-                    if new_full.isdigit():
-                        item["full_price"] = int(new_full)
-
-                    self.handler.save_data(self.file, menu)
-
-                    print("✅ Item updated successfully")
-                    self.logger.info(f"Menu item updated successfully: ID {item_id}")
+            if name:
+                if not name.replace(" ", "").isalpha():
+                    print("Invalid name")
                     return
 
-            print("Item not found")
-            self.logger.warning(f"Item not found for update: {item_id}")
+                
+                for i in menu:
+                    if i["name"].lower() == name.lower() and i["id"] != item_id:
+                        print("Item already exists")
+                        return
+
+                item_found["name"] = name
+
+            
+            half_price = input("Enter new half price (leave blank to skip): ")
+
+            if half_price:
+                if not half_price.isdigit():
+                    print("Invalid price")
+                    return
+                item_found["half_price"] = int(half_price)
+
+            full_price = input("Enter new full price (leave blank to skip): ")
+
+            if full_price:
+                if not full_price.isdigit():
+                    print("Invalid price")
+                    return
+
+                if int(full_price) <= item_found["half_price"]:
+                    print("Full price must be greater than half price")
+                    return
+
+                item_found["full_price"] = int(full_price)
+
+            self.handler.save_data(self.file, menu)
+
+            print("✅ Item updated successfully")
+            self.logger.info(f"Item updated: ID {item_id}")
 
         except Exception as e:
-            print("Something went wrong")
-            self.logger.error(f"Error updating menu item: {e}")
-
-      
-      
+            print("Error:", e)
+            self.logger.error(f"Update error: {e}")

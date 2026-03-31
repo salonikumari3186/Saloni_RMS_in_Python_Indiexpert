@@ -3,101 +3,145 @@
         "order_id": 1,
         "items": [
             {
+                "name": "samosa",
+                "size": "half",
+                "qty": 3,
+                "amount": 75
+            },
+            {
                 "name": "Sandwich",
+                "size": "full",
+                "qty": 2,
+                "amount": 140
+            }
+        ],
+        "total": 215,
+        "status": "paid"
+    },
+    {
+        "order_id": 2,
+        "table": 8,
+        "items": [
+            {
+                "name": "Aloo Paratha",
                 "size": "full",
                 "qty": 3,
                 "amount": 210
             },
             {
-                "name": "Paneer Paratha",
+                "name": "Paneer Butter Masala",
                 "size": "full",
                 "qty": 4,
-                "amount": 360
+                "amount": 880
             }
         ],
-        "total": 570,
-        "status": "pending"
-    },
-    {
-        "order_id": 2,
-        "items": [
-            {
-                "name": "Dosa",
-                "size": "half",
-                "qty": 3,
-                "amount": 150
-            }
-        ],
-        "total": 150,
+        "total": 1090,
         "status": "pending"
     },
     {
         "order_id": 3,
+        "table": 3,
         "items": [
             {
-                "name": "Aloo Paratha",
+                "name": "Chicken Biryani",
                 "size": "full",
-                "qty": 2,
-                "amount": 140
-            },
-            {
-                "name": "Masala Dosa",
-                "size": "full",
-                "qty": 5,
-                "amount": 550
-            },
-            {
-                "name": "Chole Bhature",
-                "size": "half",
-                "qty": 5,
-                "amount": 500
+                "qty": 3,
+                "amount": 720
             }
         ],
-        "total": 1190,
+        "total": 720,
         "status": "pending"
     },
     {
         "order_id": 4,
+        "table": 6,
         "items": [
             {
-                "name": "Idli",
-                "size": "full",
-                "qty": 5,
-                "amount": 250
-            },
-            {
-                "name": "Dosa",
-                "size": "half",
-                "qty": 3,
-                "amount": 150
-            },
-            {
-                "name": "Chole Bhature",
+                "name": "Milkshake",
                 "size": "full",
                 "qty": 2,
-                "amount": 360
+                "amount": 160
             }
         ],
-        "total": 760,
+        "total": 160,
         "status": "pending"
     },
     {
         "order_id": 5,
+        "table": 10,
         "items": [
             {
-                "name": "Masala Dosa",
+                "name": "Paneer Butter Masala",
                 "size": "full",
-                "qty": 4,
-                "amount": 440
-            },
-            {
-                "name": "Mix Veg",
-                "size": "full",
-                "qty": 8,
-                "amount": 1280
+                "qty": 3,
+                "amount": 660
             }
         ],
-        "total": 1720,
+        "total": 660,
         "status": "pending"
+    },
+    {
+        "order_id": 6,
+        "table": 3,
+        "items": [
+            {
+                "name": "Paneer Butter Masala",
+                "size": "full",
+                "qty": 3,
+                "amount": 660
+            }
+        ],
+        "total": 660,
+        "status": "pending"
+    },
+    {
+        "order_id": 7,
+        "table": 9,
+        "items": [
+            {
+                "name": "Rasgulla",
+                "size": "full",
+                "qty": 3,
+                "amount": 210
+            }
+        ],
+        "total": 210,
+        "status": "paid"
+    },
+    {
+        "order_id": 8,
+        "table": 3,
+        "items": [
+            {
+                "name": "Rasgulla",
+                "size": "full",
+                "qty": 3,
+                "amount": 210
+            }
+        ],
+        "total": 210,
+        "status": "paid",
+        "date": "31-03-2026"
+    },
+    {
+        "order_id": 9,
+        "table": 1,
+        "items": [
+            {
+                "name": "Chicken Biryani",
+                "size": "full",
+                "qty": 3,
+                "amount": 720
+            },
+            {
+                "name": "Sandwich",
+                "size": "half",
+                "qty": 3,
+                "amount": 120
+            }
+        ],
+        "total": 840,
+        "status": "paid",
+        "date": "31-03-2026"
     }
 ]
